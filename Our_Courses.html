@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>course_Direction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="css/2f3f6.css">
+    <link rel="stylesheet" href="eclipse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+  
+  </head>
+<style type="text/css">
+    
+    .ptb-10{
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+
+    @media screen and (max-width: 767px){
+      .slider-text h1 {
+          font-size: 24px;
+          padding-bottom: 0px !important;
+          margin-bottom: 10px !important;
+      }
+      .page-wrap {
+        padding-top: 50px !important;
+      }
+
+    }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #3d3d3d !important;
+  }
+
+  .sidenav button:hover {
+    color: #f1f1f1;
+    background-color: #3d3d3d !important;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  .dropdown-container a {
+   font-size: 17px !important;
+  }
+
+  .dropdown-container a:hover {
+   font-size: 17px !important;
+   background-color: #3d3d3d !important;
+  } 
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .dropdown-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff !important;
+    display: block;
+    transition: 0.3s;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #818181;
+  }
+
+
+  /* Add an active class to the active dropdown button */
+  .active {
+   background-color: #ee9517;
+    color: white;
+  }
+
+  .mb-10{
+    margin-bottom: 10px !important;
+  }
+
+  .about-img img {
+      width: 100%;
+      margin-top: 10px; 
+  }
+
+  .mtb-auto{
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  
+  .wd-100{
+    width: 100% !important;
+  }
+</style>
+<body style="scroll-snap-type: y mandatory;overflow-y:scroll ;">
+  <header style="position: relative;">
+    <div id="wrapper">
+      <div id="page-content-wrapper"  style="background-color: #1b1716;">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-2">
+                <a href="#">  <img class="side-log" src="frames/eoc_logo.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="overlay"></div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a class="mb-10" href="index.html">Home</a>
+          <button class="dropdown-btn mb-10">Our Courses
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container ">
+            <a href="Our_Courses.html#direct">Direction</a>
+            <a href="Our_Courses.html#act">Acting</a>
+            <a href="Our_Courses.html#edit">Editing</a>
+            <a href="Our_Courses.html#cinematography">Cinematography</a>
+            <a href="Our_Courses.html#writing">Writing</a>
+            <a href="six_months.html">Degree Programme</a>            
+          </div>
+          <a class="mb-10" href="Faculties.html">Our Faculties</a>
+          <a class="mb-10" href="contact.html">Contact us</a>
+          <a class="mb-10 suffron" href="Tel: +91 9072768222 " class="suffron" target="_blank">
+            <i class="fa fa-phone suffron" aria-hidden="true"></i> +91 9072768222 </a>
+            <a class="suffron" href="index.html#enquiryForm">Apply Now</a>
+        </div> 
+        <span style="font-size:30px; cursor:pointer; position: absolute;top:10px;right:10px; " onclick="openNav()">&#9776; </span>  
+      </div>
+
+    
+  </header>
+  <section style="background-color: #1b1716; padding-top: 0px; ">
+        <div class="container " id="direct">
+          <div class="row">               
+              <div class="col-xl-6 col-lg-6">
+                  <div class="mt-50 mb-30">
+                      <div class="section-title">                          
+                          <span>Course in</span>                          
+                          <h1 class="text-white">Direction</h1>
+                          <p>Basic course on techniques of directing films, its trends and processes are taught by experienced professionals and assessments take place during classes. Workshops are designed where one gets a chance to direct short projects within limited parameters and challenges. </p>        
+                          <p><span class="suffron">Duration :</span> Duration - 6 Months, 1 Year (Regular, Weekend)</p>
+                          <span class="suffron text-left">Production | Live practical |  Interactive sessions</span><br>
+                      </div>                            
+                  </div>
+                  <div class="dbtn">
+                    <a class="float-left BLEFT" href="Facility.html#direct"> OUR FACULTIES </a>
+                    <a class="float-left BRIGHT" href="index.html#enquiryForm"> APPLY NOW</a>
+                  </div>                   
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <div class="row">
+                  <div class="col-md-8 mtb-auto">
+                    <br><br>
+                    <img class="img1" src="Events & news/vysakh.jpg" alt="">
+                    <br><br>
+                    <img class="img2" src="Events & news/mohanlal-vysakh.jpg" alt="">
+                  </div>
+                </div>
+              </div>                  
+          </div>
+        </div>
+    </section>
+<section  style="background-color: #000000; " >
+  <div class="container scroll2"id="writing">
+    <div class="row">   
+        <div class="col-xl-6 col-lg-6 col-md-6">
+          <div class="mt-10 mb-30">
+            <div class="section-title ">                          
+              <span>Course in</span>          
+              <h1 class="text-white">Script Writing </h1>
+              <p>The curriculum extensively covers the technicalities and theories of story, script and screenwriting according to industry standards. The course helps students to bring out their ideas and present it in a structured format as per industry trends. Students get opportunities to attend sessions and workshops with selected visiting faculties in the industry. On course completion, one can confidently get into the art of story presentation required for the current industry with right format, theme, dialogues, content, action and visuals.</p>                  
+              <p> <span class="suffron">Duration :</span>  Duration - 3 Months (Regular, Weekend)</p>
+              <span class="suffron text-left">Production | Live practical |  Interactive sessions</span>  <br>
+            </div>            
+          </div>
+          <div class="dbtn">
+            <a class=" float-left BLEFT" href="#"> OUR FACULTIES </a>
+            <a class=" float-left BRIGHT" href="index.html#enquiryForm"> APPLY NOW</a>
+          </div>       
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6">
+          <div class="row">
+            <div class="col-md-8 mtb-auto">
+              <br>  <br>
+              <img class="img1" src="images/gallery_img23.jpg" alt="">
+              <br>  <br>
+              <img class="img2" src="images/gallery_img22.jpg" alt="">
+            </div>
+          </div>
+        </div>      
+    </div>    
+  </div>
+</section>
+
+<section style=" background-image: linear-gradient( rgba(226, 41, 41, 0.8),rgba(0,0,0,0.8) ),url(frames/What-are-acting.jpg ) ;background-size: cover;background-position: top;position: relative;background-attachment: fixed; ">
+<div class="container scroll3" id="act" >
+
+  <div class="row">
+ 
+      <div class="col-xl-6 col-lg-6">
+          <div class="mt-10 mb-30">
+              <div class="section-title">                          
+                  <span>Course in</span>
+               
+
+                  <h1 class="text-white">	Acting</h1>
+                  <p>Our course helps students develop the highest levels of performance through dramatic lessons and variety of acting techniques. We target to create acting professionals with a full range of appropriate movement, throw of voice, mind and body control and more. Though we offer the knowledge and skills required for acting, we simultaneously equip them with the latest developments and trends in the profession. Teaching staff’s experience and knowledge about the industry is imparted through intensive acting workshops.</p>							
+
+    <p> <span class="suffron">Duration :</span>  Duration - 6 Months (Regular, Weekend)</p>
+    <span class="suffron text-left">Production | Live practical |  Interactive sessions</span>  <br>
+   
+ 
+              </div>
+              
+      </div>
+      <div class="dbtn">
+        <a class=" float-left BLEFT" href="Facility.html#Acting"> OUR FACULTIES </a>
+        <a class=" float-left BRIGHT" href="index.html#enquiryForm"> APPLY NOW</a>
+
+      </div>
+     
+      </div>
+      <div class="col-xl-6 col-lg-6">
+        <div class="row">
+        <div class="col-md-8">
+          <br>  <br>
+             <img class="img1" src="images/gallery_img7.jpg" alt="">
+             <br>  <br>
+          <img class="img2" src="images/gallery_img8.jpg" alt="">
+       
+        
+        </div>
+   
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+</section>
+
+<section style="background-color: #1b1716;">
+<div class="container scroll4" id="cinematography" >
+
+  <div class="row ">
+ 
+      <div class="col-xl-6 col-lg-6 ">
+          <div class="mt-10 mb-30">
+              <div class="section-title">                          
+                  <span>Course in</span>
+               
+
+                    
+                  <h1 class="text-white">Cinematography</h1>
+              
+                  <p>This course enables students to acquire technical knowledge and skills of cinematography through structured workshops and joint projects. Cinematography students get to work with masters on filmsets and are exposed to get networking opportunities. The goal of becoming a good cinematographer can be achieved through systematic project studies, self-direction and workshops in special projects. Once the course gets completed, the students will have expertise in various camera systems, lighting patterns and handling of visual tools and equipment’s. The students get a chance to experience the work flow in on going movie projects.</p>
+                  
+    <p> <span class="suffron">Duration :</span>  Duration - 6 Months, 1 Year (Regular, Weekend)</p>
+    <span class="suffron text-left">Production | Live practical |  Interactive sessions</span>  <br>
+   
+ 
+              </div>
+              
+      </div>
+      <div class="dbtn  " style="margin-bottom: 100px;">
+        <a class=" float-left BLEFT" href="Facility.html#Cinematography"> OUR FACULTIES </a>
+        <a class=" float-left BRIGHT" href="index.html#enquiryForm"> APPLY NOW</a>
+
+      </div>
+     
+      </div>
+      <div class="col-xl-6 col-lg-6 ">
+        <div class="row">
+        <div class="col-md-8 mtb-auto">
+          <br>  <br>
+             <img class="img1" src="Events & news/alagappan.jpg" alt="">
+             <br>  <br>
+          <img class="img2" src="Events & news/algappan.jpg" alt="">
+       
+        
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+</section>
+
+<section style="background-color: #000000;">
+<div class="container scroll5" id="edit" >
+
+  <div class="row ">
+ 
+      <div class="col-xl-6 col-lg-6 ">
+          <div class="mt-10 mb-30">
+              <div class="section-title">                          
+                  <span>Course in</span>
+               
+
+                    
+                  <h1 class="text-white dq">Editing</h1>
+              
+                  <p>As part of the curriculum, theory and practical exercises are carried out with importance in both creative and technical part of the post- production process of film making. The course gives insight into the work flow of a film editor who works with the raw footage, selects shots and combines them into sequences which create a finished motion picture.Course offers practical knowledge in film editing by giving released movie rough footages and permitting students to experience on going movie project edit process flow. Training on editing software like Adobe After Effects, FCP and Adobe Premiere Pro are provided with practical exposure.</p>                        
+                 
+    <p> <span class="suffron">Duration :</span>Duration - 6 Months, 1 Year (Regular, Weekend)</p>
+    <span class="suffron text-left">Production | Live practical |  Interactive sessions</span>  <br>
+   
+ 
+              </div>
+              
+      </div>
+      <div class="dbtn  " style="margin-bottom: 100px;">
+        <a class=" float-left BLEFT" href="Facility.html#Editor"> OUR FACULTIES </a>
+        <a class=" float-left ml-30 BRIGHT" href="index.html#enquiryForm"> APPLY NOW</a>
+
+      </div>
+     
+      </div>
+      <div class="col-xl-6 col-lg-6 ">
+        <div class="row">
+        <div class="col-md-8">
+          <br>  <br>
+             <img class="img1" src="Events & news/ayoobknan.jpg" alt="">
+             <br>  <br>
+          <img class="img2" src="images/gallery_img17.jpg" alt="">
+       
+        
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+</section>
+      <section style="background:url(frames/application_form_bg.jpg);background-size: cover;z-index: 10000;" id="application_form">
+          <div class="linec line-offer"></div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 contact-cls offset-">
+                  <h3 class="text-center text-white">Application Form</h3>
+                  <div class="line mb-10"></div> <br> <br>
+                  <form action="">
+      
+                      <select class="selct">
+                          <option value="Select Your Course" aria-placeholder="Select Your Course"> Select Your Course</option>
+                          <option value="">  Course In Direction</option>
+                          <option value="">  Course In acting</option>
+                          <option value="">  Course In editing</option>
+                          <option value="">  Course In cinematography</option>
+                          <option value="">  Course In writing</option>
+                        
+                        </select> <br>
+                        <input type="text" placeholder="Name *">
+                        <input type="text" placeholder=" Email *"> <br>
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required placeholder="  your phone number *	">
+                        <input type="text" placeholder="  Location *	"> <br>
+                        <input type="text" placeholder="Education *">
+                   
+                        <select class="selct1">
+                          <option value="Are you Interested to join this month?">Are you Interested to join this month?</option>
+                          <option value="">Yes</option>
+                          <option value="">No</option>
+                          
+                        </select>
+                  </form>
+                 
+      
+                        
+                  <div class="row">
+                    <div class="col-xl-12">
+                        <div class="gallery-button text-center mt-40">
+                            <a class="btn" href="#"> Send Enquiry </a>
+                        </div>
+                    </div>
+                </div>
+                                   
+      
+                     
+                  
+              </div>
+          </div>
+      </div>
+      </section>
+
+
+      <div class="course-wrap active-course ">
+       
+        <ul class=" couse-links">
+          <li><a style="color: #f39f2a !important;">Recomended Courses</a></li>
+          <li><a href="Our_Courses.html#direct">Direction</a></li>
+          <li><a href="Our_Courses.html#act">Acting</a></li>
+          <li><a href="Our_Courses.html#edit">Editing</a></li>
+          <li><a href="Our_Courses.html#cinematography">Cinematography</a></li>
+          <li><a href="Our_Courses.html#writing">Writing</a></li>
+          <li><a href="six_months.html#bba">BBA</a></li>
+        <li><a href="six_months.html#bsc">BSC</a></li>
+        </ul>
+      
+      </div>
+            
+      <div class="progress-wrap"> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i> 
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/> 
+        </svg>
+      </div>
+
+        <!--media slider-->
+        <div class="ball"></div>
+        <footer style="background: #1b1716;padding-top: 60px;padding-bottom: 60px;">
+          <div class="container mt-30">
+            <div class="row">
+        
+          
+            <div class="col-md-3 footer-logo">
+              <a href="">  <img class="side-log" src="frames/eoc_logo.png" alt=""></a><br>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-youtube" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i> 
+            </div>
+            <div class="col-md-3">
+              
+                       <h5>QUICK LINKS</h5>
+                       <div class="linec"></div>
+              <ul>
+              <li><a href="index.html">Home</a></li>
+
+              <li><a href="contact.html">Contact Us</a></li>  
+               <li><a href="Faculties.html">Faculties</a></li>
+               <li><a href="Our_Courses.html">Our Courses</a></li>
+
+            </ul>
+            </div>
+            <div class="col-md-3">
+              
+                      <h5>COURSES</h5>
+                      <div class="linec"></div>
+              <ul>
+                        <li><a href="Our_Courses.html#direct"> Course in Direction</a></li>
+                        <li><a href="Our_Courses.html#act"> Course in Acting</a></li>
+                        <li><a href="Our_Courses.html#edit"> Course in Editing</a></li>
+                        <li><a href="Our_Courses.html#cinematography"> Course in Cinematography</a></li>
+                        <li><a href="Our_Courses.html#writing"> Course in Writing</a></li>
+                    </ul>
+             
+        
+        
+        
+        
+        
+        
+            </div>
+            <div class="col-md-3">
+          
+                      <h5> ADDRESS</h5>
+                      <div class="linec line-footer"></div>
+                <P>EOC Tower, Infopark road, <br>
+                Kusumagiri P.O, Opp. Prestige mall, <br>
+                Kakkanad.
+                </P>
+                <a href=""> Google Map</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/mouse.js"></script>
+<script src="js/main.js"></script>
+<script>
+AOS.init();
+</script>
+
+<!-- 
+<script type="text/javascript" src="http://chatagentdemo.com/build/js/chatpal.js?7.23" crossorigin="anonymous" data-cfasync="false"></script>
+<script>
+var chatPal = new ChatPal({embedId: 'RUZaue4WFekp', remoteBaseUrl: 'https://chatagentdemo.com/', version: '7.23'});
+</script> -->
+
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+  <script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+
+  </body>
+</html>

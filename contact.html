@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sider Menu Bar CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="css/2f3f6.css">
+    <link rel="stylesheet" href="eclipse.css">
+
+  
+  </head>
+  <style type="text/css">
+    
+    .ptb-10{
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+
+    @media screen and (max-width: 767px){
+      .slider-text h1 {
+          font-size: 24px;
+          padding-bottom: 0px !important;
+          margin-bottom: 10px !important;
+      }
+      .page-wrap {
+        padding-top: 50px !important;
+      }
+
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      right: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+      background-color: #3d3d3d !important;
+    }
+
+    .sidenav button:hover {
+      color: #f1f1f1;
+      background-color: #3d3d3d !important;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .dropdown-container {
+      display: none;
+      background-color: #262626;
+      padding-left: 8px;
+    }
+
+    .dropdown-container a {
+     font-size: 17px !important;
+    }
+
+    .dropdown-container a:hover {
+     font-size: 17px !important;
+     background-color: #3d3d3d !important;
+    } 
+
+    /* Optional: Style the caret down icon */
+    .fa-caret-down {
+      float: right;
+      padding-right: 8px;
+    }
+
+    /* Some media queries for responsiveness */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .dropdown-btn {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #ffffff !important;
+      display: block;
+      transition: 0.3s;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+    }
+
+    /* On mouse-over */
+    .sidenav a:hover, .dropdown-btn:hover {
+      color: #818181;
+    }
+
+
+    /* Add an active class to the active dropdown button */
+    .active {
+     background-color: #ee9517;
+      color: white;
+    }
+
+    .mb-10{
+      margin-bottom: 10px !important;
+    }
+
+    .about-img img {
+        width: 100%;
+        margin-top: 10px; 
+    }
+
+    .my-auto{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .wd-100{
+      width: 100% !important;
+    }
+     .mtb-auto{
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .course-bnr{
+      height: auto !important;
+    }
+  </style>
+
+  <body style="background:#222627 ;">
+  <header style="position: relative;">
+    <div id="wrapper">
+      <div id="page-content-wrapper"  style="background-color: #222627;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-2">
+              <a href="#">  <img class="side-log" src="frames/eoc_logo.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="mb-10" href="index.html">Home</a>
+            <button class="dropdown-btn mb-10">Our Courses
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container ">
+              <a href="direction.html#direct">Direction</a>
+              <a href="direction.html#act">Acting</a>
+              <a href="direction.html#edit">Editing</a>
+              <a href="direction.html#cinematography">Cinematography</a>
+              <a href="direction.html#writing">Writing</a>
+              <a href="six_months.html">Degree Programme</a>            
+            </div>
+            <a class="mb-10" href="Faculties.html">Our Faculties</a>
+            <a class="mb-10" href="contact.html">Contact us</a>
+            <a class="mb-10 suffron" href="Tel: +91 9072768222 " class="suffron" target="_blank">
+              <i class="fa fa-phone suffron" aria-hidden="true"></i> +91 9072768222 </a>
+            <a class="suffron" href="index.html#application_form">Apply Now</a>
+      </div> 
+      <span style="font-size:30px; cursor:pointer; position: absolute;top:10px;right:10px; " onclick="openNav()">&#9776; </span> 
+    </div>   
+           <!-- Page Content -->
+    
+  </header>
+
+  <section class="mt-60  elementor-element elementor-element-1725e2a elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section pb-0" data-id="1725e2a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+    				<div class="elementor-row">
+    				<div class="elementor-element elementor-element-d411ece elementor-column elementor-col-100 elementor-top-column" data-id="d411ece" data-element_type="column">
+			      <div class="elementor-column-wrap  elementor-element-populated">
+					  <div class="elementor-widget-wrap">
+				    <div class="elementor-element elementor-element-1f87dad elementor-align-left elementor-widget elementor-widget-bdevs-contact-info" data-id="1f87dad" data-element_type="widget" data-widget_type="bdevs-contact-info.default">
+    				<div class="elementor-widget-container">
+		          <div class="contact-info-area">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4">
+	                    <div class="contact-info mb-10">
+	                      <h4> Elements of Cinema</h4> <br>
+	                      <ul>                         
+  									      <li><i class="fa fa-home"></i><span>Elements of Cinema EOC Tower, Infopark Road Kusumagiri P O, Opp. Prestige mall, Kakkanad, Kochi, Kerala 682030</span></li>
+                          <li><i class="fa fa-envelope-open"></i><span><a href="info@elementsofcinema.in" class="__cf_email__ text-white" data-cfemail="a6cbc9d0cfc3dee6c3dec7cbd6cac388c5c9cb">info@elementsofcinema.in</a></span>
+                          </li>
+                          <li> <a href="tel:+91 9072767222">   <i class="fa fa-phone"></i> <span>+91 9072767222</span></a></li>
+                          <li> <a href="tel:+91 9072767222"><i class="fa fa-phone"></i> <span>+91 9072768222</span>  </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-xl-8">
+                        <div class="contact-form">
+                          <div id="contact-form">
+                            <div role="form" class="wpcf7" id="wpcf7-f5-p24-o1" lang="en-US" dir="ltr">
+                              <div class="screen-reader-response"></div>
+                              <form action="/theme/bazna/contact/#wpcf7-f5-p24-o1" method="post" id="Contactform" class="wpcf7-form" novalidate="novalidate">
+                                <div style="display: none;">
+                                    <input type="hidden" name="_wpcf7" value="5" />
+                                    <input type="hidden" name="_wpcf7_version" value="5.1.1" />
+                                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-p24-o1" />
+                                    <input type="hidden" name="_wpcf7_container_post" value="24" />
+                                    <input type="hidden" name="g-recaptcha-response" value="" />
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-box user-icon mb-30">
+                                            <span class="wpcf7-form-control-wrap text-753">
+                                                <input type="text" name="name" value="" size="40" id="name" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Name" />
+                                            </span>
+                                            <span id="nameError" style="display: none; color: red; font-size: smaller; margin-top: 5px;">Please enter your name.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                      <div class="form-box email-icon mb-30">
+                                          <span class="wpcf7-form-control-wrap email-724">
+                                              <input type="email" name="email-724" value="" size="40" id="email" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="Your Email" />
+                                          </span>
+                                          <span id="emailError" style="display: none; color: red; font-size: smaller; margin-top: 5px;">Please enter a valid email address.</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <div class="form-box phone-icon mb-30">
+                                          <span class="wpcf7-form-control-wrap text-334">
+                                              <input type="text" name="text-334" value="" size="40"  id="phone" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Phone Number" />
+                                          </span>
+                                          <span id="phoneError" style="display: none; color: red; font-size: smaller; margin-top: 5px;">Please enter a valid phone number.</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <div class="form-box subject-icon mb-30">
+                                          <span class="wpcf7-form-control-wrap text-334">
+                                              <input type="text" name="text-334" value="" size="40" id="subject" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Subject" />
+                                          </span>
+                                          <span id="subjectError" style="display: none; color: red; font-size: smaller; margin-top: 5px;">Please enter the subject.</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-12">
+                                      <div class="form-box message-icon mb-30">
+                                          <span class="wpcf7-form-control-wrap textarea-599">
+                                              <textarea id="message" name="textarea-599" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Your Message"></textarea>
+                                          </span>
+                                          <span id="messageError" style="display: none; color: red; font-size: smaller; margin-top: 5px;">Please enter your message.</span>
+                                      </div>
+                                  </div>
+                              </div>
+                                </div>
+                                <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                <div class="contact-btn">
+                                    <input style="background-color: #ef9617 !important;" type="submit"  id="submitButton" value="Send Message" class="suffron wpcf7-form-control wpcf7-submit btn btn-icon ml-0 float-right" />
+                                </div>
+                            </form>
+                            <div id="successMessage" style="display: none; color: #ffffff; font-weight:800;">
+                              Contact Form sent successfully!
+                          </div>
+                            </div>
+                          </div>
+                          <p class="ajax-response text-center"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>        	
+			        </div>
+				    </div>
+					  </div>
+			      </div>
+		        </div>
+		        </div>
+	          </div>
+  </section>			
+  
+					
+  <div id="page-content-wrapper"  class="contact-bn">
+    <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12   addQuestion" >
+              <div style="overflow:hidden;width: 100%;">                                   
+                <iframe style="width:100%; height:400px; border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.170958999145!2d76.35653872411265!3d10.014993440414917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ddebbc67d81%3A0xa46bffd67bc9ce5a!2sElements+of+Cinema!5e0!3m2!1sen!2sin!4v1564135954983!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                  
+              </div>    
+            </div>         
+          </div>
+    </div>
+  </div>
+
+            
+    <div class="progress-wrap"> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i> 
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/> 
+      </svg>
+    </div>
+
+      <!--media slider-->
+      <div class="ball"></div>
+      <footer style="background: #1b1716;padding-top: 60px;padding-bottom: 60px;">
+        <div class="container mt-30">
+          <div class="row">
+      
+        
+          <div class="col-md-3 footer-logo">
+            <a href="">  <img class="side-log" src="frames/eoc_logo.png" alt=""></a><br>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i> 
+          </div>
+          <div class="col-md-3">
+            
+                     <h5>QUICK LINKS</h5>
+                     <div class="linec"></div>
+             <ul>
+              <li><a href="index.html">Home</a></li>
+
+              <li><a href="contact.html">Contact Us</a></li>	
+               <li><a href="Faculties.html">Faculties</a></li>
+               <li><a href="Our_Courses.html">Our Courses</a></li>
+
+            </ul>
+          </div>
+          <div class="col-md-3">
+            
+                    <h5>COURSES</h5>
+                    <div class="linec"></div>
+             <ul>
+                        <li><a href="Our_Courses.html#direct"> Course in Direction</a></li>
+                        <li><a href="Our_Courses.html#act"> Course in Acting</a></li>
+                        <li><a href="Our_Courses.html#edit"> Course in Editing</a></li>
+                        <li><a href="Our_Courses.html#cinematography"> Course in Cinematography</a></li>
+                        <li><a href="Our_Courses.html#writing"> Course in Writing</a></li>
+                    </ul>
+      
+      
+      
+      
+      
+      
+          </div>
+          <div class="col-md-3">
+        
+                    <h5> ADDRESS</h5>
+                    <div class="linec line-footer"></div>
+              <P>EOC Tower, Infopark road, <br>
+              Kusumagiri P.O, Opp. Prestige mall, <br>
+              Kakkanad.
+              </P>
+              <a href=""> Google Map</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+                      
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script src="js/main.js"></script>
+<script src="js/mouse.js"></script>
+                    
+      
+<!-- <script type="text/javascript" src="http://chatagentdemo.com/build/js/chatpal.js?7.23" crossorigin="anonymous" data-cfasync="false"></script>
+<script>
+var chatPal = new ChatPal({embedId: 'RUZaue4WFekp', remoteBaseUrl: 'https://chatagentdemo.com/', version: '7.23'});
+</script>
+ -->
+<script>
+  AOS.init();
+</script>               
+      
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+  <script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+     
+    <script>
+      // Initialize EmailJS with your user ID
+      emailjs.init('PEwTqh_ftgl_S1xzm');
+  
+      function validateForm() {
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const phone = document.getElementById('phone').value.trim();
+          const subject = document.getElementById('subject').value.trim();
+          const message = document.getElementById('message').value.trim();
+  
+          let isValid = true;
+  
+          // Validate name field
+          if (name === "") {
+              document.getElementById('nameError').style.display = 'block';
+              isValid = false;
+          } else {
+              document.getElementById('nameError').style.display = 'none';
+          }
+  
+          // Validate email field
+          if (email === "" || !isValidEmail(email)) {
+              document.getElementById('emailError').style.display = 'block';
+              isValid = false;
+          } else {
+              document.getElementById('emailError').style.display = 'none';
+          }
+  
+          // Validate phone field
+          if (phone === "" || !isValidPhone(phone)) {
+              document.getElementById('phoneError').style.display = 'block';
+              isValid = false;
+          } else {
+              document.getElementById('phoneError').style.display = 'none';
+          }
+  
+          // Validate subject field
+          if (subject === "") {
+              document.getElementById('subjectError').style.display = 'block';
+              isValid = false;
+          } else {
+              document.getElementById('subjectError').style.display = 'none';
+          }
+  
+          // Validate message field
+          if (message === "") {
+              document.getElementById('messageError').style.display = 'block';
+              isValid = false;
+          } else {
+              document.getElementById('messageError').style.display = 'none';
+          }
+  
+          return isValid;
+      }
+  
+      function isValidEmail(email) {
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return emailRegex.test(email);
+      }
+  
+      function isValidPhone(phone) {
+          const phoneRegex = /^\d{10}$/;
+          return phoneRegex.test(phone);
+      }
+  
+      // Add event listener for form submission
+      document.getElementById('submitButton').addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent default form submission
+  
+          // Call validateForm function to check form validity
+          if (validateForm()) {
+              // If form is valid, submit the form using EmailJS
+              sendEmail();
+          }
+      });
+  
+      function sendEmail() {
+          const name = document.getElementById('name').value;
+          const email = document.getElementById('email').value;
+          const phone = document.getElementById('phone').value;
+          const subject = document.getElementById('subject').value;
+          const message = document.getElementById('message').value;
+  
+          // Prepare email parameters
+          const params = {
+              name: name,
+              email: email,
+              phone: phone,
+              subject: subject,
+              message: message,
+          };
+  
+          // Send email using EmailJS
+          emailjs.send('service_5j892x7', 'template_rph8k55', params)
+              .then(function(response) {
+                  console.log('SUCCESS!', response.status, response.text);
+                  document.getElementById('successMessage').style.display = 'block';
+                  document.getElementById('Contactform').reset();// Reset the form after successful submission
+                  // Optionally, you can redirect the user to a success page
+                  // window.location.href = 'success.html';
+              }, function(error) {
+                  alert('Contact Form could not be sent. Please try again later.');
+                  console.log('FAILED...', error);
+              });
+      }
+  </script>
+  
+  
+      
+      
+        </body>
+      </html>
+      
